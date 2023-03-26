@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="21080591_LangKhaiTuan_Tuan4">
+    <title>Document</title>
+    <style>
+        /* .menu{
+            display: flex;
+            justify-content: space-around;
+            line-height: 60px;
+            width: 100%;
+            height: 60px;
+            background-color: #000;
+            list-style: none;
+        }
+
+        .menu a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+        ul{
+            padding: 0;
+        } */
+
+        .menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu-item {
+            width: 280px;
+            height: 60px;
+            background-color: #000;
+            border: 1px solid #fff;
+        }
+
+        .menu-item a {
+            color: #fff;
+            text-decoration: none;
+            line-height: 60px;
+            padding-left: 10px;
+        }
+
+        .menu-item:hover {
+            background-color: greenyellow;
+        }
+
+        .sub-menu {
+            display: none;
+        }
+
+        .sub-menu:hover {
+            background-color: green;
+            line-height: 40px;
+            height: 40px;
+            padding-left: 20px;
+
+        }
+
+        .menu:hover .sub-menu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Introdution</a></li>
+    <li><a href="#">Portfollo</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Contact</a></li>
+   </ul> -->
+
+
+
+    <div class="menu">
+        <div class="menu-item"><a href="">Home</a></div>
+        <div class="menu-item"><a href="">Introdution >></a></div>
+        <div class="menu-item">
+            <a href="">Portfollo >></a>
+            <div class="sub-menu">Photography</div>
+            <div class="sub-menu">Web & User Interface Design</div>
+            <div class="sub-menu">IILustrasion</div>
+        </div>
+        <div class="menu-item"><a href="">News</a></div>
+        <div class="menu-item"><a href="">Contact</a></div>
+    </div>
+</body>
